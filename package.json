@@ -1,0 +1,15 @@
+{
+  "name": "x-frame-options-test",
+  "version": "1.0.0",
+  "scripts": {
+    "start-pagea": "cd pagea && pnpm start",
+    "start-pageb": "cd pageb && pnpm start",
+    "start": "run-p start-pagea start-pageb"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

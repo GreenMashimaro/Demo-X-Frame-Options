@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_SCRIPT",
+    "err": {
+      "name": "Error",
+      "message": "Missing script: npm-run-all",
+      "code": "ERR_PNPM_NO_SCRIPT",
+      "stack": "Error: Missing script: npm-run-all\n    at Object.handler (/Users/zhangzenan/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:121580:15)\n    at async /Users/zhangzenan/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:125614:20\n    at async run (/Users/zhangzenan/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:125589:34)\n    at async runPnpm (/Users/zhangzenan/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:125799:5)\n    at async /Users/zhangzenan/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:125791:7"
+    }
+  }
+}
